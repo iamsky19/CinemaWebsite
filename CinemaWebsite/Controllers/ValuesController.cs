@@ -9,7 +9,7 @@ namespace CinemaWebsite.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
-        // GET api/values
+        // GETs api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
